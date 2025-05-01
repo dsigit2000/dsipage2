@@ -14407,6 +14407,7 @@ li.has-dropdown:hover .submenu {
   position: relative;
   overflow: hidden;
   display: block;
+  height: 280px;
 }
 .single-project-area-5 .thumbnail {
   overflow: hidden;
@@ -14414,7 +14415,7 @@ li.has-dropdown:hover .submenu {
 }
 .single-project-area-5 .inner-content {
   background: rgba(255, 255, 255, 0.5803921569);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   position: absolute;
   left: 0;
   right: 0;
@@ -14434,7 +14435,7 @@ li.has-dropdown:hover .submenu {
 }
 .single-project-area-5 .inner-content .title {
   margin-bottom: 0;
-  font-size: 36px;
+  font-size: 26px;
 }
 .single-project-area-5 .inner-content .icon-area a {
   display: flex;
@@ -14650,6 +14651,7 @@ li.has-dropdown:hover .submenu {
   border-right: 1px solid #D1D1D1;
   border-bottom: 1px solid #D1D1D1;
   padding: 32px;
+  height: 350px;
 }
 @media only screen and (max-width: 479px) {
   .single-pricing-area-start-2 {
@@ -17152,8 +17154,9 @@ li.has-dropdown:hover .submenu {
   margin-bottom: 25px;
   font-size: 28px;
 }
+/*NOTE*/
 .service-list-between .left .title {
-  font-size: 64px;
+  font-size: 50px;
 }
 @media only screen and (max-width: 575px) {
   .service-list-between .left .title {

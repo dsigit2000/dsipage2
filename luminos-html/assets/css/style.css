@@ -17190,13 +17190,14 @@ li.has-dropdown:hover .submenu {
   margin-bottom: 30px;
 }
 
-.bg-gradient-5 {
-  background: #F5F5FF;
-}
+.bg-gradient-100 { background: #f8f9fa; }  /* Mismo (muy claro) */
+.bg-gradient-200 { background: #f1f3f5; }  /* Un poco más oscuro que 100 */
+.bg-gradient-300 { background: #e9ecef; }  /* Original 200 */
+.bg-gradient-400 { background: #dde0e3; }  /* Más claro que el original 300 */
+.bg-gradient-500 { background: #ced4da; }  /* Original 400 */
+.bg-gradient-600 { background: #adb5bd; }  /* Original 500 (más claro que el anterior 600) */
+.bg-gradient-700 { background: #868e96; }  /* Más claro que el original 700 */
 
-.bg-gradient-5-bold {
-  background: #EBEBFF;
-}
 
 .has-dropdown:hover .nav-link {
   color: var(--color-primary);
